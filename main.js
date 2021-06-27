@@ -43,6 +43,5 @@ function gotResult (error,results) {
         console.log(results);
         window.alert("Sucessfully Identified");
         document.getElementById('object_name').innerHTML = results[0].label;
-        document.getElementById('object_name').innerHTML = "My eye";
     }
   } 
